@@ -61,6 +61,9 @@ app.post('/addOrder',(req,res) => {
   
   
     })
+app.get('/',(req,res)=>{
+    res.send("Database connected")
+})
 
 
 
